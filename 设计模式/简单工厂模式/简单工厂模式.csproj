@@ -42,17 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Operation.cs" />
-    <Compile Include="OperationAdd.cs" />
-    <Compile Include="OperationDiv.cs" />
-    <Compile Include="OperationFactory.cs" />
-    <Compile Include="OperationMul.cs" />
-    <Compile Include="OperationSub.cs" />
+    <Compile Include="简单计算器\Operation.cs" />
+    <Compile Include="简单计算器\OperationAdd.cs" />
+    <Compile Include="简单计算器\OperationDiv.cs" />
+    <Compile Include="简单计算器\OperationFactory.cs" />
+    <Compile Include="简单计算器\OperationMul.cs" />
+    <Compile Include="简单计算器\OperationSub.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="超市收银系统\CashNormal.cs" />
+    <Compile Include="超市收银系统\CashFactory.cs" />
+    <Compile Include="超市收银系统\CashRebate.cs" />
+    <Compile Include="超市收银系统\CashReturn.cs" />
+    <Compile Include="超市收银系统\CashSuper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UML\简单工厂模式.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

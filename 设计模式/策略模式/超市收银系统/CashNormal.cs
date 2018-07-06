@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 设计模式
+namespace 策略模式
 {
-    class Program
+    class CashNormal : CashSuper
     {
-        static void Main(string[] args)
+        public override double AcceptCash(double money)
         {
+            return money;
         }
     }
 }
