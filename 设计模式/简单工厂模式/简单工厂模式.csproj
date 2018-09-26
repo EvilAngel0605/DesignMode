@@ -50,6 +50,11 @@
     <Compile Include="简单计算器\OperationSub.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="绘制图形\Circle.cs" />
+    <Compile Include="绘制图形\Rectangle.cs" />
+    <Compile Include="绘制图形\Shape.cs" />
+    <Compile Include="绘制图形\ShapeFactory.cs" />
+    <Compile Include="绘制图形\Square.cs" />
     <Compile Include="超市收银系统\CashNormal.cs" />
     <Compile Include="超市收银系统\CashFactory.cs" />
     <Compile Include="超市收银系统\CashRebate.cs" />
